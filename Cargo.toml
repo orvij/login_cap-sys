@@ -1,0 +1,16 @@
+[package]
+name = "login_cap-sys"
+version = "0.0.1"
+edition = "2018"
+authors = ["orvi"]
+categories = ["external-ffi-bindings"]
+description = "Minimal Rust bindings for OpenBSD's login_cap"
+keywords = ["bsd", "auth", "ffi"]
+license = "BSD-4-Clause"
+repository = "https://github.com/orvij/login_cap-sys"
+
+[dependencies]
+libc = "0.2.98"
+
+[build-dependencies]
+bindgen = "0.58.1"
