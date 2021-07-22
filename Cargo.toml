@@ -11,6 +11,3 @@ repository = "https://github.com/orvij/login_cap-sys"
 
 [dependencies]
 libc = "0.2.98"
-
-[build-dependencies]
-bindgen = "0.58.1"
