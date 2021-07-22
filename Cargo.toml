@@ -1,6 +1,6 @@
 [package]
 name = "login_cap-sys"
-version = "0.0.1"
+version = "0.1.0"
 edition = "2018"
 authors = ["orvi"]
 categories = ["external-ffi-bindings"]
